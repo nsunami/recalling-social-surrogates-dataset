@@ -1,6 +1,6 @@
 # Recalling Social Surrogates Dataset
 
-[![37.50 % FAIR](https://img.shields.io/badge/FAIR_assessment-37.50_%25-red)](https://fair-checker.france-bioinformatique.fr/assessment/6914d281a04a3b9f7c2b301c) [![Static Badge](https://img.shields.io/badge/F--UJI-48%25-yellow)](https://www.f-uji.net/index.php)
+[![37.50 % FAIR](https://img.shields.io/badge/FAIR_assessment-37.50_%25-red)](https://fair-checker.france-bioinformatique.fr/assessment/6914d281a04a3b9f7c2b301c) [![Static Badge](https://img.shields.io/badge/F--UJI-48%25-yellow)](https://www.f-uji.net/index.php) [![DOI](https://zenodo.org/badge/1095207341.svg)](https://doi.org/10.5281/zenodo.17593669)
 
 The dataset for Study 2 of Nami Sunami's dissertation, "Playing Alone, Feeling Connected: Do Single-Player Video Games with Social Surrogates Replenish Belonging After Social Rejection?".
 
