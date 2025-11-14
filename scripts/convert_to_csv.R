@@ -4,10 +4,10 @@ raw_file_path <- here::here("data/raw/study-recallingsurrogates_data.rds")
 
 output_file_path <- here::here("data/study-recallingsurrogates_data.csv")
 
-recalling_surrogates_data <- readRDS(raw_file_path)
+recalling_surrogates_data <- readr::read_rds(raw_file_path)
 
 # Write out to the data folder
-write.csv(
+readr::write_csv(
   recalling_surrogates_data,
   output_file_path
 )
