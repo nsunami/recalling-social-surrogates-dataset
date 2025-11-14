@@ -9,6 +9,7 @@
     "familyName": "Sunami",
     "@id": "https://orcid.org/0000-0001-5482-8370"
   },
+  "sameAs": "https://doi.org/10.5281/zenodo.17593670",
   "variableMeasured": [
     "StartDate",
     "EndDate",
