@@ -3,6 +3,12 @@
   "@type": "Dataset",
   "name": "Recalling Social Surrogates - Dataset from Study 2 of work, 'Playing Alone, Feeling Connected: Do Single-Player Video Games with Social Surrogates Replenish Belonging After Social Rejection?'",
   "description": "The dataset for Study 2 of Nami Sunami's dissertation, 'Playing Alone, Feeling Connected: Do Single-Player Video Games with Social Surrogates Replenish Belonging After Social Rejection?'.",
+  "author": {
+    "@type": "Person",
+    "givenName": "Nami",
+    "familyName": "Sunami",
+    "@id": "https://orcid.org/0000-0001-5482-8370"
+  },
   "variableMeasured": [
     "StartDate",
     "EndDate",
