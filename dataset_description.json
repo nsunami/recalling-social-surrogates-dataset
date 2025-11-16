@@ -12,173 +12,1137 @@
   "sameAs": "https://doi.org/10.5281/zenodo.17593670",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "variableMeasured": [
-    "StartDate",
-    "EndDate",
-    "Status",
-    "Progress",
-    "Duration__in_seconds_",
-    "Finished",
-    "RecordedDate",
-    "DistributionChannel",
-    "UserLanguage",
-    "Q_RecaptchaScore",
-    "Age",
-    "Race_1",
-    "Race_4",
-    "Race_2",
-    "Race_7",
-    "Race_8",
-    "Race_5",
-    "Race_3",
-    "Race_6",
-    "Relationship",
-    "Gender_Identity",
-    "Gender_1",
-    "Gender_2",
-    "Gender_8",
-    "Gender_6",
-    "Gender_7",
-    "Sexori",
-    "T1_Heart_1",
-    "T1_Valence_1",
-    "T1_Arousal_1",
-    "T1_Dominance_1",
-    "timer_inst_First_Click",
-    "timer_inst_Last_Click",
-    "timer_inst_Page_Submit",
-    "timer_inst_Click_Count",
-    "surrogate_vg",
-    "nonsurrogate_vg",
-    "Rejection_Essay",
-    "Rejection_Timer_First_Click",
-    "Rejection_Timer_Last_Click",
-    "Rejection_Timer_Page_Submit",
-    "Rejection_Timer_Click_Count",
-    "NonSurrogacy_Essay",
-    "Surrogacy_Essay",
-    "VG_Essay_Timer_First_Click",
-    "VG_Essay_Timer_Last_Click",
-    "VG_Essay_Timer_Page_Submit",
-    "VG_Essay_Timer_Click_Count",
-    "T2_Heart_1",
-    "T2_Valence_1",
-    "T2_Arousal_1",
-    "T2_Dominance_1",
-    "Interact_with_NPC",
-    "IOS",
-    "PSI_1",
-    "PSI_2R",
-    "PSI_3",
-    "PSI_4",
-    "PSI_5",
-    "PSI_6",
-    "PSI_7",
-    "PSI_8",
-    "PSI_9R",
-    "PSI_10R",
-    "PSI_11",
-    "PSI_12",
-    "Single_Immersion",
-    "Narrative_Engagement_1R",
-    "Narrative_Engagement_2R",
-    "Narrative_Engagement_3R",
-    "Narrative_Engagement_4R",
-    "Narrative_Engagement_5R",
-    "Narrative_Engagement_6",
-    "Narrative_Engagement_7",
-    "Narrative_Engagement_8",
-    "Narrative_Engagement_9",
-    "OTF_Social_World_1",
-    "OTF_Social_World_2",
-    "OTF_Social_World_3",
-    "OTF_Social_World_4",
-    "Enjoyment_1",
-    "Enjoyment_2",
-    "Enjoyment_3R",
-    "Enjoyment_4",
-    "Enjoyment_5",
-    "VG_When_Played",
-    "VG_Freqency",
-    "Attention_Rejection",
-    "Attention_Rejection_DO_1",
-    "Attention_Rejection_DO_2",
-    "Attention_Rejection_DO_3",
-    "Attention_VG",
-    "Attention_VG_DO_1",
-    "Attention_VG_DO_2",
-    "Attention_VG_DO_3",
-    "Study_Purpose",
-    "Share_Anything",
-    "attention_rejection_correct",
-    "attention_VGessay_correct",
-    "attention_all_correct",
-    "t_consent_submit",
-    "t_age_submit",
-    "t_race_submit",
-    "t_relationship_submit",
-    "t_gender_submit",
-    "t_sexori_submit",
-    "t_T1Heart_submit",
-    "t_T1Valence_submit",
-    "t_T1Arousal_submit",
-    "t_T1Dominance_submit",
-    "t_vgInst_submit",
-    "t_videoGameNomination_submit",
-    "t_rejectionEssayIntro_submit",
-    "t_rejectionEssay_submit",
-    "t_surrogacyEssayIntro_submit",
-    "t_surrogacyEssay_submit",
-    "t_T2Heart_submit",
-    "t_T2Valence_submit",
-    "t_T2Arousal_submit",
-    "t_T2Dominance_submit",
-    "t_intractCharacters_submit",
-    "t_IOS_submit",
-    "t_PSI_submit",
-    "t_singleImmersion_submit",
-    "t_narrativeEngagement_submit",
-    "t_otfSocialWorld_submit",
-    "t_enjoyment_submit",
-    "t_frequency_submit",
-    "t_attentionRejection_submit",
-    "t_attentionVideoGame_submit",
-    "t_debriefingInfo_submit",
-    "essay_condition",
-    "target_game_name",
-    "Note",
-    "FL_8_DO_FL_7",
-    "FL_8_DO_FL_9",
-    "ExitQuestions_DO_Share_Anything",
-    "ExitQuestions_DO_Study_Purpose",
-    "PID",
-    "PSI",
-    "Narrative_Engagement",
-    "OTF_Social_World",
-    "Enjoyment",
-    "essay_condition_title",
-    "Gender_Identity_3GP",
-    "Race_8GP",
-    "parasocial_MC_group",
-    "attention_VG_correct",
-    "Rejection_Essay_Len",
-    "Surrogacy_Essay_Len",
-    "Share_Anything_Len",
-    "Study_Purpose_Len",
-    "Exit_Q_Order",
-    "target_game_name_cl",
-    "A",
-    "B",
-    "C",
-    "agreeAB",
-    "agreeAC",
-    "agreeBC",
-    "agreeAB_percent",
-    "agreeAC_percent",
-    "agreeBC_percent",
-    "agree_overall_percent",
-    "initial_codes",
-    "highest_pair",
-    "third_rater",
-    "followed_VGinstructions"
+    {
+      "@type": "PropertyValue",
+      "name": "StartDate",
+      "description": "Start Date",
+      "maxValue": "2021-04-14 05:00:08",
+      "minValue": "2021-03-16 11:13:53"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "EndDate",
+      "description": "End Date",
+      "maxValue": "2021-04-14 05:24:11",
+      "minValue": "2021-03-16 11:27:03"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Status",
+      "description": "Response Type",
+      "maxValue": "0",
+      "minValue": " 0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Progress",
+      "description": "Progress",
+      "maxValue": " 100.00",
+      "minValue": " 38.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Duration__in_seconds_",
+      "description": "Duration (in seconds)",
+      "maxValue": "3903.00",
+      "minValue": "115.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Finished",
+      "description": "Finished",
+      "maxValue": "1",
+      "minValue": " 0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "RecordedDate",
+      "description": "Recorded Date",
+      "maxValue": "2021-04-20 19:36:41",
+      "minValue": "2021-03-16 11:27:04"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "DistributionChannel",
+      "description": "Distribution Channel",
+      "maxValue": "9",
+      "minValue": "9"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "UserLanguage",
+      "description": "User Language",
+      "maxValue": "2",
+      "minValue": "2"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Q_RecaptchaScore",
+      "description": "Q_RecaptchaScore",
+      "maxValue": "   1.00",
+      "minValue": "  0.30"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Age",
+      "description": "Age",
+      "maxValue": "  59.00",
+      "minValue": " 18.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Race_1",
+      "description": "Race - Selected Choice American Indian, Indigenous Canadian, or Alaska Native"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Race_4",
+      "description": "Race - Selected Choice Asian"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Race_2",
+      "description": "Race - Selected Choice Black"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Race_7",
+      "description": "Race - Selected Choice Latino/Latina, Hispanic, Chicano, or Puerto Rican"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Race_8",
+      "description": "Race - Selected Choice Middle Eastern or North African"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Race_5",
+      "description": "Race - Selected Choice Native Hawaiian or Pacific Islander"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Race_3",
+      "description": "Race - Selected Choice White"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Race_6",
+      "description": "Race - Selected Choice Prefer to self-describe"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Relationship",
+      "description": "Relationship Status - Selected Choice",
+      "maxValue": "7",
+      "minValue": " 1"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Gender_Identity",
+      "description": "Gender identity (selected)",
+      "maxValue": "59",
+      "minValue": "4"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Gender_1",
+      "description": "Gender - Selected Choice Male"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Gender_2",
+      "description": "Gender - Selected Choice Female"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Gender_8",
+      "description": "Gender - Selected Choice Nonbinary"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Gender_6",
+      "description": "Gender - Selected Choice Unsure"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Gender_7",
+      "description": "Gender - Selected Choice Prefer to self-describe"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Sexori",
+      "description": "Sexual Orientation - Selected Choice",
+      "maxValue": "8",
+      "minValue": " 1"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "T1_Heart_1",
+      "description": "T1 Heart",
+      "maxValue": "   9.00",
+      "minValue": "  1.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "T1_Valence_1",
+      "description": "T1 Valence",
+      "maxValue": "   9.00",
+      "minValue": "  1.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "T1_Arousal_1",
+      "description": "T1 Arousal",
+      "maxValue": "   9.00",
+      "minValue": "  1.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "T1_Dominance_1",
+      "description": "T1 Dominance",
+      "maxValue": "   9.00",
+      "minValue": "  1.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "timer_inst_First_Click",
+      "description": "Timing - First Click",
+      "maxValue": " 105.01",
+      "minValue": "  0.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "timer_inst_Last_Click",
+      "description": "Timing - Last Click",
+      "maxValue": " 105.59",
+      "minValue": "  0.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "timer_inst_Page_Submit",
+      "description": "Timing - Page Submit",
+      "maxValue": " 379.19",
+      "minValue": "  1.05"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "timer_inst_Click_Count",
+      "description": "Timing - Click Count",
+      "maxValue": "  13.00",
+      "minValue": "  0.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "surrogate_vg",
+      "description": "Social surrogate game",
+      "maxValue": "66",
+      "minValue": "3"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "nonsurrogate_vg",
+      "description": "Non-social surrogate game",
+      "maxValue": "154",
+      "minValue": "3"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Rejection_Essay",
+      "description": "Essay written by participants recalling their rejection experience",
+      "maxValue": "121",
+      "minValue": "121"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Rejection_Timer_First_Click",
+      "description": "Timing - First Click",
+      "maxValue": "1035.77",
+      "minValue": "  0.54"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Rejection_Timer_Last_Click",
+      "description": "Timing - Last Click",
+      "maxValue": "1260.13",
+      "minValue": " 18.30"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Rejection_Timer_Page_Submit",
+      "description": "Timing - Page Submit",
+      "maxValue": "1436.84",
+      "minValue": "188.32"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Rejection_Timer_Click_Count",
+      "description": "Timing - Click Count",
+      "maxValue": "  54.00",
+      "minValue": "  2.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "NonSurrogacy_Essay",
+      "description": "Essay written by participants recalling their experience playing a non-surrogacy video game",
+      "maxValue": "121",
+      "minValue": "121"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Surrogacy_Essay",
+      "description": "Essay written by participants recalling experience playing a surrogacy video game",
+      "maxValue": "121",
+      "minValue": "121"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "VG_Essay_Timer_First_Click",
+      "description": "Timing - First Click",
+      "maxValue": " 541.32",
+      "minValue": "  0.17"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "VG_Essay_Timer_Last_Click",
+      "description": "Timing - Last Click",
+      "maxValue": " 922.12",
+      "minValue": "  5.55"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "VG_Essay_Timer_Page_Submit",
+      "description": "Timing - Page Submit",
+      "maxValue": "1057.38",
+      "minValue": " 88.64"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "VG_Essay_Timer_Click_Count",
+      "description": "Timing - Click Count",
+      "maxValue": "  54.00",
+      "minValue": "  2.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "T2_Heart_1",
+      "description": "T2 Heart",
+      "maxValue": "   9.00",
+      "minValue": "  1.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "T2_Valence_1",
+      "description": "T2 Valence",
+      "maxValue": "   9.00",
+      "minValue": "  1.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "T2_Arousal_1",
+      "description": "T2 Arousal",
+      "maxValue": "   9.00",
+      "minValue": "  1.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "T2_Dominance_1",
+      "description": "T2 Dominance",
+      "maxValue": "   9.00",
+      "minValue": "  1.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Interact_with_NPC",
+      "description": "Did you interact with an NPC?",
+      "maxValue": "2",
+      "minValue": " 1"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "IOS",
+      "description": "IOS with an NPC",
+      "maxValue": "6",
+      "minValue": " 0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PSI_1",
+      "description": "PSI - I carefully followed the behavior of the non-player characters in the game.",
+      "maxValue": "4",
+      "minValue": " 0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PSI_2R",
+      "description": "PSI - I hardly thought about why the non-player characters in the game did certain things they did.",
+      "maxValue": "4",
+      "minValue": " 0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PSI_3",
+      "description": "PSI - I kept wondering if I knew persons that are similar to the non-player characters in the game.",
+      "maxValue": "4",
+      "minValue": " 0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PSI_4",
+      "description": "PSI - I became aware of aspects of the non-player characters in the game that I really liked or disliked.",
+      "maxValue": "4",
+      "minValue": " 0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PSI_5",
+      "description": "PSI - I kept asking myself how things would evolve around the non-player characters in the game.",
+      "maxValue": "4",
+      "minValue": " 0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PSI_6",
+      "description": "PSI - Occasionally, I wondered if the non-player characters in the game were similar to me or not.",
+      "maxValue": "4",
+      "minValue": " 0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PSI_7",
+      "description": "PSI - Sometimes I really loved the non-player characters in the game for what they did.",
+      "maxValue": "4",
+      "minValue": " 0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PSI_8",
+      "description": "PSI - If the non-player characters in the game felt bad, I felt bad as well; if the non-player characters in the game felt good, I felt good as well.",
+      "maxValue": "4",
+      "minValue": " 0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PSI_9R",
+      "description": "PSI - The non-player characters in the game left me rather sober and unaffected.",
+      "maxValue": "4",
+      "minValue": " 0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PSI_10R",
+      "description": "PSI - Whatever the non-player characters in the game said or did—I kept still.",
+      "maxValue": "4",
+      "minValue": " 0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PSI_11",
+      "description": "PSI - Occasionally, I said something to the non-player characters in the game on impulse.",
+      "maxValue": "4",
+      "minValue": " 0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PSI_12",
+      "description": "PSI - Sometimes I felt like speaking out on the non-player characters in the game.",
+      "maxValue": "4",
+      "minValue": " 0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Single_Immersion",
+      "description": "While playing the game, I felt completely immersed.",
+      "maxValue": "3",
+      "minValue": "-3"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Narrative_Engagement_1R",
+      "description": "NE - At points, I had a hard time making sense of what was going on in the game.",
+      "maxValue": "3",
+      "minValue": "-3"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Narrative_Engagement_2R",
+      "description": "NE - I had a hard time recognizing the thread of the story in the game.",
+      "maxValue": "3",
+      "minValue": "-3"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Narrative_Engagement_3R",
+      "description": "NE - I found my mind wandering while I played the game.",
+      "maxValue": "3",
+      "minValue": "-3"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Narrative_Engagement_4R",
+      "description": "NE - While I was playing the game, I found myself thinking about other things.",
+      "maxValue": "3",
+      "minValue": "-3"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Narrative_Engagement_5R",
+      "description": "NE - I had a hard time keeping my mind on the game while I played.",
+      "maxValue": "3",
+      "minValue": "-3"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Narrative_Engagement_6",
+      "description": "NE - While playing, my body was in the room, but my mind was inside the world created by the game.",
+      "maxValue": "3",
+      "minValue": "-3"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Narrative_Engagement_7",
+      "description": "NE - The game created a new world, and then that world suddenly disappeared when I stopped playing the game.",
+      "maxValue": "3",
+      "minValue": "-3"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Narrative_Engagement_8",
+      "description": "NE - At times during the gameplay, the world of the video game was closer to me than the real world.",
+      "maxValue": "3",
+      "minValue": "-3"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Narrative_Engagement_9",
+      "description": "NE - The gameplay affected me emotionally.",
+      "maxValue": "3",
+      "minValue": "-3"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "OTF_Social_World_1",
+      "description": "OTF Social World - The video game presented stories that I immersed myself in",
+      "maxValue": "3",
+      "minValue": "-3"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "OTF_Social_World_2",
+      "description": "OTF Social World - The video game presented another social world where I felt like I belonged",
+      "maxValue": "3",
+      "minValue": "-3"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "OTF_Social_World_3",
+      "description": "OTF Social World - The video game had a social narrative that told an engaging story",
+      "maxValue": "3",
+      "minValue": "-3"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "OTF_Social_World_4",
+      "description": "OTF Social World - I found myself getting “lost” in the game’s story",
+      "maxValue": "3",
+      "minValue": "-3"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Enjoyment_1",
+      "description": "Enjoyment - I think the game is fun.",
+      "maxValue": "3",
+      "minValue": "-2"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Enjoyment_2",
+      "description": "Enjoyment - I enjoy playing the game.",
+      "maxValue": "3",
+      "minValue": "-2"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Enjoyment_3R",
+      "description": "Enjoyment - I feel bored while playing the game.",
+      "maxValue": "3",
+      "minValue": "-3"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Enjoyment_4",
+      "description": "Enjoyment - I am likely to recommend this game to others.",
+      "maxValue": "3",
+      "minValue": "-3"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Enjoyment_5",
+      "description": "Enjoyment - If given the chance, I want to play this game again.",
+      "maxValue": "3",
+      "minValue": "-3"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "VG_When_Played",
+      "description": "When did you play the game?",
+      "maxValue": "73",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "VG_Freqency",
+      "description": "How frequently and how long did you play the game?",
+      "maxValue": "190",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Attention_Rejection",
+      "description": "What did you write in the first essay?",
+      "maxValue": "3",
+      "minValue": " 1"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Attention_Rejection_DO_1",
+      "description": "What did you write in the first essay? - Display Order about a time I felt rejected",
+      "maxValue": "   3.00",
+      "minValue": "  1.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Attention_Rejection_DO_2",
+      "description": "What did you write in the first essay? - Display Order about a time I felt accepted",
+      "maxValue": "   3.00",
+      "minValue": "  1.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Attention_Rejection_DO_3",
+      "description": "What did you write in the first essay? - Display Order about my morning yesterday",
+      "maxValue": "   3.00",
+      "minValue": "  1.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Attention_VG",
+      "description": "What did you write in the second essay?",
+      "maxValue": "3",
+      "minValue": " 1"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Attention_VG_DO_1",
+      "description": "What did you write in the second essay? - Display Order ${q://QID3/ChoiceTextEntryValue}",
+      "maxValue": "   3.00",
+      "minValue": "  1.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Attention_VG_DO_2",
+      "description": "What did you write in the second essay? - Display Order ${q://QID4/ChoiceTextEntryValue}",
+      "maxValue": "   3.00",
+      "minValue": "  1.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Attention_VG_DO_3",
+      "description": "What did you write in the second essay? - Display Order unsure",
+      "maxValue": "   3.00",
+      "minValue": "  1.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Study_Purpose",
+      "description": "During the study, did you wonder about the purpose of the study or procedures? If so, what did you think the study was about?",
+      "maxValue": "121",
+      "minValue": "121"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Share_Anything",
+      "description": "Is there anything you’d like to share with us about your experience in this study? Please use the space below to explain your answers to any of the previous questions, or to provide any feedback.",
+      "maxValue": "121",
+      "minValue": "121"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "attention_rejection_correct",
+      "description": "Participant correctly identifying that they wrote a rejection essay"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "attention_VGessay_correct",
+      "description": "attention_VGessay_correct",
+      "maxValue": "5",
+      "minValue": "4"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "attention_all_correct",
+      "description": "Whether all attention check items were correct"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_consent_submit",
+      "description": "t_consent_submit",
+      "maxValue": "24",
+      "minValue": "24"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_age_submit",
+      "description": "t_age_submit",
+      "maxValue": "24",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_race_submit",
+      "description": "t_race_submit",
+      "maxValue": "24",
+      "minValue": "24"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_relationship_submit",
+      "description": "t_relationship_submit",
+      "maxValue": "24",
+      "minValue": "24"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_gender_submit",
+      "description": "t_gender_submit",
+      "maxValue": "24",
+      "minValue": "24"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_sexori_submit",
+      "description": "t_sexori_submit",
+      "maxValue": "24",
+      "minValue": "24"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_T1Heart_submit",
+      "description": "t_T1Heart_submit",
+      "maxValue": "24",
+      "minValue": "24"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_T1Valence_submit",
+      "description": "t_T1Valence_submit",
+      "maxValue": "24",
+      "minValue": "24"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_T1Arousal_submit",
+      "description": "t_T1Arousal_submit",
+      "maxValue": "24",
+      "minValue": "24"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_T1Dominance_submit",
+      "description": "t_T1Dominance_submit",
+      "maxValue": "24",
+      "minValue": "24"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_vgInst_submit",
+      "description": "t_vgInst_submit",
+      "maxValue": "24",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_videoGameNomination_submit",
+      "description": "t_videoGameNomination_submit",
+      "maxValue": "24",
+      "minValue": "24"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_rejectionEssayIntro_submit",
+      "description": "t_rejectionEssayIntro_submit",
+      "maxValue": "24",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_rejectionEssay_submit",
+      "description": "t_rejectionEssay_submit",
+      "maxValue": "24",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_surrogacyEssayIntro_submit",
+      "description": "t_surrogacyEssayIntro_submit",
+      "maxValue": "24",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_surrogacyEssay_submit",
+      "description": "t_surrogacyEssay_submit",
+      "maxValue": "24",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_T2Heart_submit",
+      "description": "t_T2Heart_submit",
+      "maxValue": "24",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_T2Valence_submit",
+      "description": "t_T2Valence_submit",
+      "maxValue": "24",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_T2Arousal_submit",
+      "description": "t_T2Arousal_submit",
+      "maxValue": "24",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_T2Dominance_submit",
+      "description": "t_T2Dominance_submit",
+      "maxValue": "24",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_intractCharacters_submit",
+      "description": "t_intractCharacters_submit",
+      "maxValue": "24",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_IOS_submit",
+      "description": "t_IOS_submit",
+      "maxValue": "24",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_PSI_submit",
+      "description": "t_PSI_submit",
+      "maxValue": "24",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_singleImmersion_submit",
+      "description": "t_singleImmersion_submit",
+      "maxValue": "24",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_narrativeEngagement_submit",
+      "description": "t_narrativeEngagement_submit",
+      "maxValue": "24",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_otfSocialWorld_submit",
+      "description": "t_otfSocialWorld_submit",
+      "maxValue": "24",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_enjoyment_submit",
+      "description": "t_enjoyment_submit",
+      "maxValue": "24",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_frequency_submit",
+      "description": "t_frequency_submit",
+      "maxValue": "24",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_attentionRejection_submit",
+      "description": "t_attentionRejection_submit",
+      "maxValue": "24",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_attentionVideoGame_submit",
+      "description": "t_attentionVideoGame_submit",
+      "maxValue": "24",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "t_debriefingInfo_submit",
+      "description": "t_debriefingInfo_submit",
+      "maxValue": "0",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "essay_condition",
+      "description": "Video game essay condition that participant was assigned (social surrogacy vs non-social surrogacy)",
+      "maxValue": "20",
+      "minValue": "16"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "target_game_name",
+      "description": "target_game_name",
+      "maxValue": "154",
+      "minValue": "3"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Note",
+      "description": "Note",
+      "maxValue": "100",
+      "minValue": "0"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "FL_8_DO_FL_7",
+      "description": "FL_8 - Block Randomizer - Display Order FL_7",
+      "maxValue": "   1.00",
+      "minValue": "  1.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "FL_8_DO_FL_9",
+      "description": "FL_8 - Block Randomizer - Display Order FL_9",
+      "maxValue": "   1.00",
+      "minValue": "  1.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ExitQuestions_DO_Share_Anything",
+      "description": "Exit Questions - Display Order Share_Anything",
+      "maxValue": "   2.00",
+      "minValue": "  1.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ExitQuestions_DO_Study_Purpose",
+      "description": "Exit Questions - Display Order Study_Purpose",
+      "maxValue": "   2.00",
+      "minValue": "  1.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PID",
+      "maxValue": "64",
+      "minValue": "64"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PSI",
+      "description": "12 PSI items aggregated by rowMeans",
+      "maxValue": "   3.50",
+      "minValue": "  0.17"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Narrative_Engagement",
+      "description": "9 Narrative_Engagement items aggregated by rowMeans",
+      "maxValue": "   3.00",
+      "minValue": " -1.78"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "OTF_Social_World",
+      "description": "4 OTF_Social_World items aggregated by rowMeans",
+      "maxValue": "   3.00",
+      "minValue": " -3.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Enjoyment",
+      "description": "5 Enjoyment items aggregated by rowMeans",
+      "maxValue": "   3.00",
+      "minValue": " -2.40"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "essay_condition_title",
+      "maxValue": "20",
+      "minValue": "16"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Gender_Identity_3GP",
+      "maxValue": "6",
+      "minValue": "4"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Race_8GP",
+      "description": "Racial identity recoded to 8 groups",
+      "maxValue": "49",
+      "minValue": "5"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "parasocial_MC_group",
+      "description": "Parasocial relationship coded into 3 groups used for the exploratory manipulation check"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "attention_VG_correct",
+      "description": "Participant correctly identifying the video game that they wrote an essay about"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Rejection_Essay_Len",
+      "description": "Length of the rejection essay in characters",
+      "maxValue": "2000.00",
+      "minValue": "  0.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Surrogacy_Essay_Len",
+      "description": "Length of the surrogacy essay in characters",
+      "maxValue": "1870.00",
+      "minValue": "  0.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Share_Anything_Len",
+      "description": "Length of the free-text response for sharing anything",
+      "maxValue": " 515.00",
+      "minValue": "  0.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Study_Purpose_Len",
+      "description": "Length of the free-text response for the gussed purpose of the study",
+      "maxValue": " 385.00",
+      "minValue": "  0.00"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Exit_Q_Order",
+      "description": "Order in which the exit questions were presented",
+      "maxValue": "19",
+      "minValue": "19"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "target_game_name_cl",
+      "description": "Target game mentioned for the video game essay",
+      "maxValue": "55",
+      "minValue": "3"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "A",
+      "description": "Rater A indicating that the participant followed the instructions",
+      "maxValue": "3",
+      "minValue": "2"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "B",
+      "description": "Rater B indicating that the participant followed the instructions",
+      "maxValue": "3",
+      "minValue": "2"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "C",
+      "description": "Rater C indicating that the participant followed the instructions",
+      "maxValue": "3",
+      "minValue": "2"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "agreeAB",
+      "description": "Agreement between Raters A and B"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "agreeAC",
+      "description": "Agreement between Raters A and C"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "agreeBC",
+      "description": "Agreement between Raters B and C"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "agreeAB_percent",
+      "description": "Percent agreement between Raters A and B",
+      "maxValue": "   0.82",
+      "minValue": "  0.82"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "agreeAC_percent",
+      "description": "Percent agreement between Raters A and C",
+      "maxValue": "   0.77",
+      "minValue": "  0.77"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "agreeBC_percent",
+      "description": "Percent agreement between Raters B and C",
+      "maxValue": "   0.83",
+      "minValue": "  0.83"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "agree_overall_percent",
+      "maxValue": "   0.81",
+      "minValue": "  0.81"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "initial_codes",
+      "description": "Initial code for whether the participant followed the instructions",
+      "maxValue": "3",
+      "minValue": "2"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "highest_pair",
+      "description": "Highest agreeing raters",
+      "maxValue": "2",
+      "minValue": "2"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "third_rater",
+      "description": "Third rater resolving any discrepancy",
+      "maxValue": "1",
+      "minValue": "1"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "followed_VGinstructions",
+      "description": "Whether participants followed the instructions for nominating a video game",
+      "maxValue": "3",
+      "minValue": "2"
+    }
   ]
 }
