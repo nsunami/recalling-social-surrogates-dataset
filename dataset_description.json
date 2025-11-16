@@ -139,6 +139,7 @@
     {
       "@type": "PropertyValue",
       "name": "Gender_Identity",
+      "description": "Gender identity (selected)",
       "maxValue": "59",
       "minValue": "4"
     },
@@ -247,6 +248,7 @@
     {
       "@type": "PropertyValue",
       "name": "Rejection_Essay",
+      "description": "Essay written by participants recalling their rejection experience",
       "maxValue": "121",
       "minValue": "121"
     },
@@ -281,12 +283,14 @@
     {
       "@type": "PropertyValue",
       "name": "NonSurrogacy_Essay",
+      "description": "Essay written by participants recalling their experience playing a non-surrogacy video game",
       "maxValue": "121",
       "minValue": "121"
     },
     {
       "@type": "PropertyValue",
       "name": "Surrogacy_Essay",
+      "description": "Essay written by participants recalling experience playing a surrogacy video game",
       "maxValue": "121",
       "minValue": "121"
     },
@@ -650,18 +654,21 @@
     {
       "@type": "PropertyValue",
       "name": "Study_Purpose",
+      "description": "During the study, did you wonder about the purpose of the study or procedures? If so, what did you think the study was about?",
       "maxValue": "121",
       "minValue": "121"
     },
     {
       "@type": "PropertyValue",
       "name": "Share_Anything",
+      "description": "Is there anything you’d like to share with us about your experience in this study? Please use the space below to explain your answers to any of the previous questions, or to provide any feedback.",
       "maxValue": "121",
       "minValue": "121"
     },
     {
       "@type": "PropertyValue",
-      "name": "attention_rejection_correct"
+      "name": "attention_rejection_correct",
+      "description": "Participant correctly identifying that they wrote a rejection essay"
     },
     {
       "@type": "PropertyValue",
@@ -672,7 +679,8 @@
     },
     {
       "@type": "PropertyValue",
-      "name": "attention_all_correct"
+      "name": "attention_all_correct",
+      "description": "Whether all attention check items were correct"
     },
     {
       "@type": "PropertyValue",
@@ -894,6 +902,7 @@
     {
       "@type": "PropertyValue",
       "name": "essay_condition",
+      "description": "Video game essay condition that participant was assigned (social surrogacy vs non-social surrogacy)",
       "maxValue": "20",
       "minValue": "16"
     },
@@ -988,98 +997,116 @@
     {
       "@type": "PropertyValue",
       "name": "Race_8GP",
+      "description": "Racial identity recoded to 8 groups",
       "maxValue": "49",
       "minValue": "5"
     },
     {
       "@type": "PropertyValue",
-      "name": "parasocial_MC_group"
+      "name": "parasocial_MC_group",
+      "description": "Parasocial relationship coded into 3 groups used for the exploratory manipulation check"
     },
     {
       "@type": "PropertyValue",
-      "name": "attention_VG_correct"
+      "name": "attention_VG_correct",
+      "description": "Participant correctly identifying the video game that they wrote an essay about"
     },
     {
       "@type": "PropertyValue",
       "name": "Rejection_Essay_Len",
+      "description": "Length of the rejection essay in characters",
       "maxValue": "2000.00",
       "minValue": "  0.00"
     },
     {
       "@type": "PropertyValue",
       "name": "Surrogacy_Essay_Len",
+      "description": "Length of the surrogacy essay in characters",
       "maxValue": "1870.00",
       "minValue": "  0.00"
     },
     {
       "@type": "PropertyValue",
       "name": "Share_Anything_Len",
+      "description": "Length of the free-text response for sharing anything",
       "maxValue": " 515.00",
       "minValue": "  0.00"
     },
     {
       "@type": "PropertyValue",
       "name": "Study_Purpose_Len",
+      "description": "Length of the free-text response for the gussed purpose of the study",
       "maxValue": " 385.00",
       "minValue": "  0.00"
     },
     {
       "@type": "PropertyValue",
       "name": "Exit_Q_Order",
+      "description": "Order in which the exit questions were presented",
       "maxValue": "19",
       "minValue": "19"
     },
     {
       "@type": "PropertyValue",
       "name": "target_game_name_cl",
+      "description": "Target game mentioned for the video game essay",
       "maxValue": "55",
       "minValue": "3"
     },
     {
       "@type": "PropertyValue",
       "name": "A",
+      "description": "Rater A indicating that the participant followed the instructions",
       "maxValue": "3",
       "minValue": "2"
     },
     {
       "@type": "PropertyValue",
       "name": "B",
+      "description": "Rater B indicating that the participant followed the instructions",
       "maxValue": "3",
       "minValue": "2"
     },
     {
       "@type": "PropertyValue",
       "name": "C",
+      "description": "Rater C indicating that the participant followed the instructions",
       "maxValue": "3",
       "minValue": "2"
     },
     {
       "@type": "PropertyValue",
-      "name": "agreeAB"
+      "name": "agreeAB",
+      "description": "Agreement between Raters A and B"
     },
     {
       "@type": "PropertyValue",
-      "name": "agreeAC"
+      "name": "agreeAC",
+      "description": "Agreement between Raters A and C"
     },
     {
       "@type": "PropertyValue",
-      "name": "agreeBC"
+      "name": "agreeBC",
+      "description": "Agreement between Raters B and C"
     },
     {
       "@type": "PropertyValue",
       "name": "agreeAB_percent",
+      "description": "Percent agreement between Raters A and B",
       "maxValue": "   0.82",
       "minValue": "  0.82"
     },
     {
       "@type": "PropertyValue",
       "name": "agreeAC_percent",
+      "description": "Percent agreement between Raters A and C",
       "maxValue": "   0.77",
       "minValue": "  0.77"
     },
     {
       "@type": "PropertyValue",
       "name": "agreeBC_percent",
+      "description": "Percent agreement between Raters B and C",
       "maxValue": "   0.83",
       "minValue": "  0.83"
     },
@@ -1092,24 +1119,28 @@
     {
       "@type": "PropertyValue",
       "name": "initial_codes",
+      "description": "Initial code for whether the participant followed the instructions",
       "maxValue": "3",
       "minValue": "2"
     },
     {
       "@type": "PropertyValue",
       "name": "highest_pair",
+      "description": "Highest agreeing raters",
       "maxValue": "2",
       "minValue": "2"
     },
     {
       "@type": "PropertyValue",
       "name": "third_rater",
+      "description": "Third rater resolving any discrepancy",
       "maxValue": "1",
       "minValue": "1"
     },
     {
       "@type": "PropertyValue",
       "name": "followed_VGinstructions",
+      "description": "Whether participants followed the instructions for nominating a video game",
       "maxValue": "3",
       "minValue": "2"
     }

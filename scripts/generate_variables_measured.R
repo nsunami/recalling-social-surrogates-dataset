@@ -1,10 +1,15 @@
 source("scripts/load_data.R")
+source("scripts/update_variable_labels.R")
 
 # Define the path to the metadata file
 DATASET_DESCRIPTION_PATH <- here::here("dataset_description.json")
 
 # Load the RDS data 
 recalling_surrogates_data <- load_data()
+
+# Update the variable measured
+recalling_surrogates_data <- recalling_surrogates_data |>
+  update_variable_labels()
 
 # Extract the data dictionary
 data_dictionary <- labelled::generate_dictionary(recalling_surrogates_data)
