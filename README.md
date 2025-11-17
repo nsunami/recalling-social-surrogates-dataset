@@ -10,6 +10,17 @@ See the [method section of Study 2](https://nsunami.github.io/dissertation/04-St
 
 I followed [Psych-DS data standard](https://psychds-docs.readthedocs.io/).
 
+## FAIR Scores
+
+I used [FAIR Checker](https://fair-checker.france-bioinformatique.fr/) and [F-UJI](https://www.f-uji.net/index.php) to evaluate the FAIRness of this dataset. I ran the checks on both on this GitHub repository and on the Zenodo record.
+
+| Checker used | [GitHub](https://github.com/nsunami/dissertation) | [Zenodo](https://doi.org/10.5281/zenodo.17593669) |
+| ------------ | ------------------------------------------------- | ------------------------------------------------- |
+| FAIR-Checker | 37.50%                                            | 91.67%                                            |
+| F-UJI        | 42%                                               | 84%                                               |
+
+\*Last checked 2025-11-17
+
 ## License
 
 This work is licensed under CC BY 4.0.
